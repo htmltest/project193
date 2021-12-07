@@ -116,3 +116,40 @@ form textarea {
 .about-section a.presentation:hover svg {stroke:#0000ff}
 .about-section a.presentation span {color:rgba(255, 255, 255, 0.5); transition:all 0.4s ease; font-weight:normal}
 .about-section a.presentation:hover span {color:#0000ff}
+
+.other-projects {margin:80px 0 0 0}
+@media screen and (max-width:600px) {
+    .other-projects {margin:70px 0 0 0}
+}
+@media screen and (max-width:420px) {
+    .other-projects {margin:50px 0 0 0}
+}
+
+.other-projects h2 {margin:40px 0 20px 0; padding:0; font-weight:bold; font-size:36px; line-height:44px; color:#000}
+
+@media screen and (max-width:991px) {
+    .other-projects h2 {font-size:32px; line-height:40px}
+}
+
+@media screen and (max-width:600px) {
+    .other-projects h2 {font-size:30px; line-height:39px}
+}
+
+.other-projects .portfolio {display:flex; align-items:stretch; justify-content:space-between; margin-top:40px; flex-wrap:wrap}
+.other-projects .portfolio .item {max-width:calc(33.33% - 10px); width:100%; margin-bottom:50px}
+.other-projects .portfolio .item .img-block {position:relative; overflow:hidden; margin-bottom:15px}
+.other-projects .portfolio .item img {width:100%; transition:all 0.4s ease; margin:0}
+.other-projects .portfolio .item:hover img {transform:scale(1.1)}
+.other-projects .portfolio .item .title {font-weight:600; font-size:20px; color:#333333; margin-bottom:10px}
+.other-projects .portfolio .item .date {font-size:18px; color:#b6b6b6}
+@media screen and (max-width:991px) {
+    .other-projects .portfolio .item .title {font-size:18px}
+}
+@media screen and (max-width:600px) {
+    .other-projects .portfolio .item {max-width:100%; margin-bottom:30px}
+}
+@media screen and (max-width:420px) {
+    .other-projects .portfolio .item {margin-bottom:20px}
+    .other-projects .portfolio .item .title {font-size:14px; margin-bottom:5px}
+    .other-projects .portfolio .item .date {font-size:12px}
+}
